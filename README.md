@@ -1,10 +1,10 @@
 # Candy Cloud สำหรับ Android
 
-ดาวน์โหลด APK รุ่นทดสอบล่าสุด **1.0.0 (8)** จาก [GitHub Releases](https://github.com/netzerodash/candy-cloud-releases/releases/latest)
+ดาวน์โหลด APK รุ่นทดสอบล่าสุด **1.0.0 (9)** จาก [GitHub Releases](https://github.com/netzerodash/candy-cloud-releases/releases/latest)
 
-- `CandyCloud-1.0.0-8.apk` — รุ่นทดลอง Android ที่มีแถบควบคุมเกมแบบกะทัดรัดและหน้าโปรไฟล์ที่แสดงเฉพาะตัวตนสมาชิก
+- `CandyCloud-1.0.0-9.apk` — รุ่นทดลองที่ใช้ raw RGBA สำหรับส่งเฟรมวิดีโอ Replay ให้ encoder แบบ native
 
-รุ่นนี้ยังเป็น candidate สำหรับทดสอบประสิทธิภาพและการใช้งาน ยังไม่ใช่ผลยืนยันบนอุปกรณ์ Android ทุกรุ่น การวัดเงาใช้ macOS Metal ไม่ใช่ Samsung A52s; รายงานว่าลื่นขึ้นก่อนหน้านี้ไม่ได้ระบุ APK ที่ทดสอบ และยังไม่มีการยืนยันว่าปัญหาภาพกะพริบหายแล้ว ลงทะเบียน Android OAuth client และตั้งค่าฝั่งเซิร์ฟเวอร์แล้ว แต่ยังต้องทดสอบ Google Sign-In บนอุปกรณ์จริง ระหว่างนี้ใช้ Guest ได้
+การทดสอบคลิปเต็มบน Mac mini M1 ใช้เวลา 56.973 วินาที เทียบกับ 180.786 วินาทีของ PNG เดิม โดยได้ 720×1280, 30 fps, 2,043 เฟรม และคุณภาพตรงตามเกณฑ์ที่ตรวจไว้ ผลนี้เป็นการวัดบน Mac ไม่ใช่ Samsung A52s หรือโทรศัพท์ Android จึงยังยืนยันความเร็วบนเครื่องจริงไม่ได้ การทดสอบ Android Google Sign-In บนอุปกรณ์จริงยังค้างอยู่; ใช้ Guest ได้
 
 ## วิธีติดตั้ง
 
